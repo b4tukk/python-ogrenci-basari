@@ -1,0 +1,162 @@
+{
+ "n": 395,
+ "gecme_orani": 0.6708860759493671,
+ "cv_A": {
+  "Taban çizgisi (en sık sınıf)": {
+   "accuracy": 0.6709,
+   "recall": 0.0,
+   "precision": 0.0,
+   "f1": 0.0,
+   "roc_auc": 0.5
+  },
+  "Logistic Regression": {
+   "accuracy": 0.691,
+   "recall": 0.6033,
+   "precision": 0.5267,
+   "f1": 0.5595,
+   "roc_auc": 0.7118
+  },
+  "Karar Ağacı (derinlik 4)": {
+   "accuracy": 0.6496,
+   "recall": 0.4102,
+   "precision": 0.476,
+   "f1": 0.4325,
+   "roc_auc": 0.5895
+  },
+  "KNN (k=15)": {
+   "accuracy": 0.7078,
+   "recall": 0.1538,
+   "precision": 0.7822,
+   "f1": 0.2544,
+   "roc_auc": 0.6388
+  },
+  "Random Forest": {
+   "accuracy": 0.7098,
+   "recall": 0.4068,
+   "precision": 0.5952,
+   "f1": 0.4794,
+   "roc_auc": 0.6931
+  },
+  "Gradient Boosting": {
+   "accuracy": 0.7036,
+   "recall": 0.3978,
+   "precision": 0.5791,
+   "f1": 0.4648,
+   "roc_auc": 0.6729
+  }
+ },
+ "test_A": {
+  "Logistic Regression": {
+   "accuracy": 0.6582,
+   "precision": 0.4783,
+   "recall": 0.4231,
+   "f1": 0.449,
+   "auc": 0.6226
+  },
+  "Random Forest": {
+   "accuracy": 0.6709,
+   "precision": 0.5,
+   "recall": 0.3846,
+   "f1": 0.4348,
+   "auc": 0.6328
+  }
+ },
+ "taban_dogruluk": 0.6708860759493671,
+ "secilen_A": "Logistic Regression",
+ "test_B": {
+  "Logistic Regression": {
+   "accuracy": 0.8734,
+   "recall": 0.9615,
+   "f1": 0.8333,
+   "auc": 0.9478
+  },
+  "Random Forest": {
+   "accuracy": 0.8608,
+   "recall": 0.9231,
+   "f1": 0.8136,
+   "auc": 0.9253
+  }
+ },
+ "onem": {
+  "age": 0.0286,
+  "goout": 0.0262,
+  "failures": 0.0245,
+  "Medu": 0.0156,
+  "devamsiz_log": 0.014,
+  "ebeveyn_egitim": 0.0138,
+  "reason": 0.0126,
+  "schoolsup": 0.0115,
+  "sex": 0.011,
+  "freetime": 0.0093
+ },
+ "ogrenme_egrisi_son": [
+  0.8484167755802338,
+  0.7107488266624479
+ ],
+ "esik": [
+  {
+   "esik": 0.5,
+   "recall": 0.423,
+   "precision": 0.478,
+   "isaretlenen": 23,
+   "toplam": 79,
+   "kacirilan": 15
+  },
+  {
+   "esik": 0.4,
+   "recall": 0.615,
+   "precision": 0.381,
+   "isaretlenen": 42,
+   "toplam": 79,
+   "kacirilan": 10
+  },
+  {
+   "esik": 0.3,
+   "recall": 0.808,
+   "precision": 0.362,
+   "isaretlenen": 58,
+   "toplam": 79,
+   "kacirilan": 5
+  },
+  {
+   "esik": 0.25,
+   "recall": 0.846,
+   "precision": 0.355,
+   "isaretlenen": 62,
+   "toplam": 79,
+   "kacirilan": 4
+  },
+  {
+   "esik": 0.2,
+   "recall": 0.962,
+   "precision": 0.342,
+   "isaretlenen": 73,
+   "toplam": 79,
+   "kacirilan": 1
+  }
+ ],
+ "fn_sayisi": 15,
+ "fn_ort_devamsizlik": 4.4,
+ "test_kalan_devamsizlik": 6.846153846153846,
+ "fairness": [
+  {
+   "grup": "F",
+   "n": 47,
+   "kalan_orani": 0.362,
+   "recall": 0.294,
+   "precision": 0.333
+  },
+  {
+   "grup": "M",
+   "n": 32,
+   "kalan_orani": 0.281,
+   "recall": 0.667,
+   "precision": 0.75
+  }
+ ],
+ "ornekler": [
+  "Kalma olasılığı %93 → YÜKSEK risk.",
+  "Kalma olasılığı %53 → ORTA risk.",
+  "Kalma olasılığı %65 → YÜKSEK risk."
+ ]
+}
