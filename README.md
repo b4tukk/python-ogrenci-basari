@@ -28,6 +28,3 @@ Colab'de: `!git clone https://github.com/b4tukk/python-ogrenci-basari` ardından
 - Eşik 0,3'te recall ≈ %81 olur, ancak öğrencilerin ~%73'ü işaretlenir.
 - Kalan sınıfı recall'ı kızlarda ≈ %29, erkeklerde ≈ %67 (küçük örnek; adalet riski).
 - Test seti 79 öğrenci: sonuçlar oynaktır.
-
-## Yapay zekanın kullanımı
-Planlama, kod taslağı, hata ayıklama (ör. Pipeline içinde ayarlı tahminleyicinin yeniden kullanılması hatası), testler ve bu README için **Claude (Claude Code)** kullanıldı. Sonuçlar not defteri çalıştırılarak elde edildi.
